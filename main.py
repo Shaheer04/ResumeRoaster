@@ -93,4 +93,4 @@ if st.button("Roast my resume!", type="primary"):
                 st.write(output["error"])
             else:
                 st.warning(output)
-st.caption("Made with ❤️ by Shaheer Jamal")
+        st.caption("Made with ❤️ by Shaheer Jamal")
