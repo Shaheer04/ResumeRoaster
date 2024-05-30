@@ -62,7 +62,7 @@ with st.sidebar:
         providing a balance of humor, sarcasm and wittyness. 
         Please do not use my name in the critique. Focus on the provided resume details, and let the critique begin! 
         Use a conversational language and tone, and employ simpler words to enhance the overall readability. 
-        Remember, no advice or headings in the response.
+        Remember, no advice or headings in the response and your response should be maximum 3 paragraphs long.
                 """]
         prompt.extend(cleaned_data)
 
