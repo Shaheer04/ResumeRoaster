@@ -51,18 +51,20 @@ with st.sidebar:
         cleaned_data = text_cleaning(extracted_text)
         # Define the prompt
         prompt = ["""
-           Gemini AI. I need a humorous and sarcastic critique of my resume,
-        focusing on the essential aspects without offering advice. 
-        Please use the following information to create a concise and witty critique:
-        Previous job positions and companies.
-        Educational background and certifications.
-        Key skills and areas of expertise.
-        Achievements and notable projects.
-        Your feedback should be insightful and entertaining,
-        providing a balance of humor, sarcasm and wittyness. 
-        Please do not use my name in the critique. Focus on the provided resume details, and let the critique begin! 
-        Use a conversational language and tone, and employ simpler words to enhance the overall readability. 
-        Remember, no advice or headings in the response and your response should be maximum 3 paragraphs long.
+           Gemini AI, I need a humorous and sarcastic critique of my resume. Focus on the key elements without offering any advice. Here are the details to include:
+                Previous job positions and companies.
+                Educational background and certifications.
+                Key skills and areas of expertise.
+                Achievements and notable projects.
+            Your critique should be:
+                Concise and witty.
+                Insightful and entertaining.
+                Balanced with humor, sarcasm, and wittiness.
+            Please:
+                Do not use my name.
+                Use conversational language and a light, humorous tone.
+                Avoid giving advice or using headings.
+                Keep the response to a maximum of 3 paragraphs.
                 """]
         prompt.extend(cleaned_data)
 
