@@ -4,8 +4,8 @@
 A fun project that can roast your resume and provide a humorous critique. It might help you improve it or offer some entertainment. 
 
 ## Features
-Upload yur CV or Resume in PDF format.
-Then Click on roast to let the fun begins!
+Upload your CV or Resume in PDF format.
+Then Click on roast to let the fun begin!
 
 ## Deployed Application
 ### Access the deployed application [here](https://resumeroaster.streamlit.app/)
